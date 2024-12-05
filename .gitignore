@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+
+# Dependency directories
+/src/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+/build
+/dist
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swx
+*.bak
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.log
+*.out
+*.lock
+
+# Miscellaneous
+*.log
+debug.log
+npm-debug.log*
+debug.log.*
+
+# Ignore any test results
+/tests/reports
+
+# Exclude temporary files
+*.tmp
+*.cache
