@@ -19,6 +19,7 @@ describe('API Endpoints with Axios', () => {
     // Store the job ID for subsequent tests
     const jobId = response.data.id;
 
+    
     // Make the jobId available to other tests (if needed)
     global.jobId = jobId;
   });
