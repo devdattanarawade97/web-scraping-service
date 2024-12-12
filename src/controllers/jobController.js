@@ -43,6 +43,7 @@ const createJob = async (req, res) => {
             url: job.url,
             status: job.status,
         });
+        
     } catch (error) {
         res.status(500).json({ error: 'Failed to create job' });
     }
